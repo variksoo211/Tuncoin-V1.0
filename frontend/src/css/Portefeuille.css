@@ -1,0 +1,34 @@
+.prt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.prt h2 {
+  margin-bottom: 10px;
+}
+
+.prt button {
+  background-color: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.prt button:hover {
+  background-color: var(--primary-dark);
+}
+
+.prt a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.prt a:hover {
+  text-decoration: underline;
+}

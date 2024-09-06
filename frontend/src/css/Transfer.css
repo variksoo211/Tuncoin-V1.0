@@ -1,0 +1,13 @@
+.transfer-container {
+  display: flex;
+  align-items: center;
+}
+
+.transfer-text {
+  flex: 1;
+}
+
+.transfer-image {
+  margin-left: 20px;
+  max-width: 400px;
+}

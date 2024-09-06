@@ -1,0 +1,72 @@
+
+.admin-page{
+  /* your styles for the admin page */
+}
+
+/* Style for the heading */
+h1 {
+  font-size: 2.5rem;
+  margin: 2rem 0;
+}
+
+/* Style for the table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 2rem;
+  background: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+/* Style for the table header row */
+thead tr {
+  background-color: #ddd;
+}
+
+/* Style for the table header cells */
+thead th {
+  font-weight: bold;
+  padding: 1rem;
+  text-align: left;
+}
+
+/* Style for the table body rows */
+tbody tr:nth-of-type(even) {
+  background-color: #f5f5f5;
+}
+
+/* Style for the table body cells */
+td {
+  padding: 1rem;
+}
+
+/* Style for the table cell containing the user ID */
+td:first-of-type {
+  width: 10%;
+}
+
+/* Style for the table cell containing the user name */
+td:nth-of-type(2) {
+  width: 30%;
+}
+
+/* Style for the table cell containing the user email */
+td:nth-of-type(3) {
+  width: 60%;
+}
+
+/* Style for the button */
+button {
+  margin: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #bacfe5;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Style for the button on hover */
+button:hover {
+  background-color: #6f95b0;
+}
